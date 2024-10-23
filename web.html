@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> GUIDE INDIA </title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="web.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <h1> Guide India </h1>
+        <div class="nav-link">
+            <P class="navbar-link"><a href="#">home</a></p>
+            <p class="navbar-link"><a href="#">tours</a></p>
+            <p class="navbar-link"><a href="#">package</a></p>
+            <p class="navbar-link"><a href="#">blog</a></p>
+            <p class="navbar-link"><a href="contactus.html">Contact us</a></p>
+            <p class="navbar-link"><a href="login.html">Login</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="slidebar">
+        <p style="text-align: right;" onclick="hide()">
+            <i= class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="slide-nav-link">
+            <P class="SNL"><a href="#">home</a></p>
+            <p class="SNL"><a href="#">tours</a></p>
+            <p class="SNL"><a href="#">package</a></p>
+            <p class="SNL"><a href="#">blog</a></p>
+            <p class="SNL"><a href="contactus.html">Contact us</a></p>
+            <p class="SNL"><a href="login.html">Login</a></p>
+        </div>
+
+    </div>
+    <section class="banner">
+        <div class="banner-text-item">
+            <div class="banner-heading">
+                <h1>Find your Next tour!</h1>
+            </div>
+            <form class="form">
+                <input type="text" list="mylist" placeholder="Where would you like to go?">
+                <datalist id="mylist">
+                    <option>Andhra Pradesh</option>
+                    <option>Gujarat</option>
+                    <option>Maharashtra</option>
+                    <option>Karnataka</option>
+                    <option>Kerala</option>
+                    <option>Jammu & Kashmir</option>
+                    <option>Tamil Nadu</option>
+                    <option>Dheli</option>
+                    <option>Punjab</option>
+                    <option>Uttar Pradesh</option>
+                </datalist>
+                <input type="date" class="date">
+                <a href="#" class="book">book</a>
+            </form>
+        </div>
+    </section>
+    <section class="services">
+        <div class="service-item">
+
+            <h2>8000+ Our Local Guides</h2>
+        </div>
+        <div class="service-item">
+
+            <h2>100% Trusted Tour Agency</h2>
+        </div>
+        <div class="service-item">
+
+            <h2>28+ Years of Travel Experience</h2>
+        </div>
+        <div class="service-item">
+
+            <h2>98% Our Travelers are Happy</h2>
+        </div>
+    </section>
+
+    <!--==============Places===================-->
+    <section class="places">
+        <div class="places-text">
+            <small>FEATURED TOURS PACKAGES</small>
+            <h2>Favourite Places</h2>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="img/tn1.jfif" width="400" height="800">
+                    </div>
+                </div>
+                <div class="text">
+                    <h2> Tamil Nadu</h2>
+                    <div class="card-box">
+                        <a href="tamilnadu.html">Know More </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="img1/banner.jfif">
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>Kerala</h2>
+                    <div class="card-box">
+                        <a href="Kerala.html">Know More </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="img1/Mysore.jfif">
+                    </div>
+                </div>
+                <div class="text">
+                    <h2> Karnataka</h2>
+                    <div class="card-box">
+                        <a href="karnataka.html">Know More </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="img1/mubaigate.jfif">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <h2> Maharashtra </h2>
+
+                    <div class="card-box">
+                        <a href="maharashtra.html">Know More </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="img1/ladak.jfif">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <h2> Jammu & Kashmir</h2>
+
+                    <div class="card-box">
+                        <a href="Jammu&Kashmir.html">Know More </a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="img1/visak.jfif">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <h2> Andhra Pradesh</h2>
+
+                    <div class="card-box">
+                        <a href="andhrapradesh.html">Know More </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--===========About Us===============-->
+    <section class="about">
+        <div class="about-text">
+            <small>ABOUT OUR COMPANY</small>
+            <h2>We are Guide India Ravels Support Company</h2>
+            <p>Guide India,the world's largest travel guidance platform, helps millions of people each month become
+                better travelers, from planning to booking to taking a trip. Travelers across the globe use Guide india
+                website and app to discover where to stay, what to do and where to eat based on guidance from those who
+                have been there before. With more than a billion reviews and contributions, travelers turn to Guide
+                india to find deals on accommodations, book experiences, reserve tables at delicious restaurants and
+                discover great places nearby
+            </p>
+            <a href="#">ABOUT US</a>
+        </div>
+    </section>
+
+    <!--===========Footer=================-->
+    <div class="footer">
+        <div class="links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>Offers & Discounts</li>
+                <li>Get Coupon</li>
+                <li>Contact Us</li>
+                <li>About</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>New Products</h3>
+            <ul>
+                <li>Woman Cloth</li>
+                <li>Fashion Accessories</li>
+                <li>Man Accessories</li>
+                <li>Kids Toys</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Support</h3>
+            <ul>
+                <li>Frequently Asked Questions</li>
+                <li>Report a Payment Issue</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+
+<script src="my.js" ></script>
+
+</html>

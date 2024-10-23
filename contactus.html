@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> GUIDE INDIA </title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="contact.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <h1> Guide India </h1>
+        <div class="nav-link">
+            <P class="navbar-link"><a href="web.html">home</a></p>
+            <p class="navbar-link"><a href="#">tours</a></p>
+            <p class="navbar-link"><a href="#">package</a></p>
+            <p class="navbar-link"><a href="#">blog</a></p>
+            
+            <p class="navbar-link"><a href="login.html">Login</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="show()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="slidebar">
+        <p style="text-align: right;" onclick="hide()">
+            <i= class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="slide-nav-link">
+            <P class="SNL"><a href="web.html">home</a></p>
+            <p class="SNL"><a href="#">tours</a></p>
+            <p class="SNL"><a href="#">package</a></p>
+            <p class="SNL"><a href="#">blog</a></p>
+            
+            <p class="SNL"><a href="login.html">Login</a></p>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="australia">Russia</option>
+            <option value="canada">London</option>
+            <option value="usa">India</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </div>
+</body> 
+<script src="my.js"></script>  
+
+    
